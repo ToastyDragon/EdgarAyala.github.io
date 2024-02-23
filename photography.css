@@ -146,4 +146,7 @@ border: 1px solid #000;
     .sec-2-photos {
         width: calc(98.4%/3);
     }
+     .dsc_0057, .img_2708, .p1011112 {
+        width: calc(98%/3);
+    }
 }
