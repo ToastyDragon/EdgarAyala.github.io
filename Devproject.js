@@ -9,7 +9,7 @@ function timeSensitiveWelcome() {
         greetingEl.textContent = "Good Afternoon, ";
     } else if (hours >= 18 && hours <= 20) {
         greetingEl.textContent = "Good Evening, ";
-    } else if (hours >= 21 && hours <= 0) {
+    } else if (hours >= 21 && hours <= 23) {
         greetingEl.textContent = "Night Hours 😴, ";
     } else if (hours >= 1 && hours <= 11) {
         greetingEl.textContent = "Good Morning, "
