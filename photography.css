@@ -163,6 +163,10 @@ border: 1px solid #000;
         font-size: 14px;
     }
     
+    footer {
+        padding-bottom: 70px;
+    }
+    
     .nav a {
         float: right;
         padding: 15px 20px;
