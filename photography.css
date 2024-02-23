@@ -131,10 +131,7 @@ border: 1px solid #000;
 /* Media Query */
 
 @media screen and (max-width: 1199px) {
-    .sec-2-photos, .sec-3-photos {
+    .sec-1-photos, .sec-2-photos, .sec-3-photos {
         width: calc(98.4%/3);
-    }
-    .dsc_0057, .img_2708, .p1011112 {
-        width: calc(98%/3);
     }
 }
