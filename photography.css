@@ -48,7 +48,7 @@ footer {
     transition: 120ms;
 }
 
-#photo-sec-1 {
+#photo-sec-1, #photo-sec-2, #photo-sec-3 {
     display: flexbox;
     align-items: center;
     margin-bottom: 2em;
