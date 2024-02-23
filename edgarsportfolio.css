@@ -47,7 +47,7 @@ footer {
     margin: 0 auto;
     padding-left: 0px;
     padding-right: 0px;
-    background-color: #1f1f1f;
+    background-color: #050505;
 }
 
 .nav { 
@@ -185,27 +185,41 @@ footer {
     }
 
     .intro_wel_text, .sec-1-title, .sec-2-title, .sec-3-title {
-      text-align: center;
+        text-align: center;
   }
-   
+   .nav a {
+        float: right;
+        padding: 15px 20px;
+    
+        color: #f2f2f2;
+        text-decoration: none;
+        font-family: 'Trispace', sans-serif;
+    }
+
+    .nav a.nav-home-btn{
+        float: left;
+        color: #f2f2f2;
+        padding: 15px 20px;
+    }    
+      
     .sec-1, .sec-2, .sec-3 {
-      margin: 0 auto;
+        margin: 0 auto;
     }
     
     .sec-1 {
-      margin-top: 0.8rem;
-      margin-bottom: 4rem;
+        margin-top: 0.8rem;
+        margin-bottom: 4rem;
     }
     
     .sec-2, .sec-3 {
-      margin-bottom: 4rem;
+        margin-bottom: 4rem;
     }
   
     .sec-1-p, .sec-2-p, .sec-3-p{
-      max-width: 80%;
-      text-align: center;
-      margin: .3em auto;
-      float: none;
+        max-width: 80%;
+        text-align: center;
+        margin: .3em auto;
+        float: none;
     }
     
   }
