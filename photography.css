@@ -162,4 +162,19 @@ border: 1px solid #000;
     .footer-list li{
         font-size: 14px;
     }
+    
+    .nav a {
+        float: right;
+        padding: 15px 20px;
+    
+        color: #f2f2f2;
+        text-decoration: none;
+        font-family: 'Trispace', sans-serif;
+    }
+
+    .nav a.nav-home-btn{
+        float: left;
+        color: #f2f2f2;
+        padding: 15px 20px;
+    }    
 }
