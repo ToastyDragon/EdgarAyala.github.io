@@ -224,6 +224,10 @@ footer {
         margin: .3em auto;
         float: none;
     }
+
+    .footer-list li{
+        font-size: 14px;
+    }
     
   }
   
