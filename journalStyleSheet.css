@@ -105,4 +105,17 @@ footer {
         text-align: center;
         margin-left: 0px;
     }
+    .nav a {
+        float: right;
+        padding: 15px 20px;
+    
+        color: #f2f2f2;
+        text-decoration: none;
+        font-family: 'Trispace', sans-serif;
+    }
+    .nav a.nav-home-btn{
+        float: left;
+        color: #f2f2f2;
+        padding: 15px 20px;
+    }    
 }
