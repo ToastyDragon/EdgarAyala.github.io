@@ -1,0 +1,149 @@
+/* Tags */
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #050505;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 0 auto;
+
+    background-color: #171717;
+}
+
+/* ID's */
+
+#img-2697 {
+    min-width: 100%;
+    min-height: 100%;
+
+    color:#f2f2f2;
+}
+
+#sound-el {
+    padding: 12px;
+    font-size: 14px;
+    border-style: none;
+    font-family: 'Trispace', sans-serif;
+    font-weight: 100;
+    color :#f2f2f2;
+    border-radius: 2px;
+    background: rgba(90, 89, 89, 0.5);
+}
+
+#sound-el:hover {
+    background:rgba(117, 116, 116, 0.8);
+    transition: 120ms;
+}
+
+#photo-sec-1 {
+    display: flexbox;
+    align-items: center;
+    margin-bottom: 2em;
+}
+ /* Classes */
+
+ .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    background-color: #1f1f1f; 
+}
+
+.nav { 
+    background-color: #171717;
+}
+
+.nav a {
+    float: right;
+    padding: 20px 30px;
+
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: 'Trispace', sans-serif;
+}
+
+.nav a:hover {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.nav a.nav-home-btn{
+    float: left;
+    color: #f2f2f2;
+    padding: 20px 30px;
+}
+
+.vidSong {
+    color:#f2f2f2;
+    font-family: 'Trispace', sans-serif;
+    float: right;
+    margin-right: 2em;
+}
+
+.vidSongLink a{
+    text-decoration: none;
+    color: #F08E1D;
+}
+
+.vidSongLink a:hover {
+    text-decoration: underline;
+}
+
+.photo-row-1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: calc(65%/3);
+border: 1px solid #000;
+}
+
+.vidContent {
+    background-color: #050505;
+}
+
+.dsc_0057 {
+    width: calc(97%/3);
+}
+
+.img_2708 {
+    width: calc(100.1%/3);
+}
+
+.img_5139 {
+    width: calc(91.6%/3);
+}
+
+.sec-title-1, .sec-title-2 {
+    text-align: center;
+    color: #f2f2f2;
+    font-family: 'Trispace', sans-serif;
+    margin-top: .8em;
+    margin-bottom: .6em;
+}
+
+.sec-2-photos {
+    width: calc(99.32%/3);
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1199px) {
+    .sec-2-photos {
+        width: calc(98.4%/3);
+    }
+}
